@@ -3,8 +3,9 @@ from pygame.locals import *
 from sys import exit
 
 pygame.init()
+pygame.display.set_caption('Snake')
 
-# Plano Cartesiano
+# PLANO CARTESIANO
 COORDENADA_X = 640
 COORDENADA_Y = 480
 
