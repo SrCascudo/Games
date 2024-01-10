@@ -10,10 +10,10 @@ x = 640
 y = 480
 
 pygame.mixer.music.set_volume(0.5)
-som_fundo = pygame.mixer.music.load('song/background.mp3')
+som_fundo = pygame.mixer.music.load('fistboll/song/background.mp3')
 pygame.mixer.music.play(-1)
 
-som_recompensa = pygame.mixer.Sound('song/coin.wav')
+som_recompensa = pygame.mixer.Sound('fistboll/song/coin.wav')
 som_recompensa.set_volume(1)
 
 tela = pygame.display.set_mode((x, y))
